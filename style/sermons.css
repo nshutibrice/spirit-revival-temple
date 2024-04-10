@@ -1,0 +1,336 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #111111;
+  font-family: "poppins", sans-serif;
+}
+
+.head-ctn {
+  z-index: 2;
+}
+
+.yt-tumb {
+  height: 500px;
+  width: 100%;
+  background: url("/images/Spirt_studio_95.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  padding: 20px 20px 0 20px;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.profile-hoder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+.profile-hoder img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.share-butn img {
+  width: 35px;
+}
+
+.share-butn p {
+  color: #fff;
+}
+
+.yt-logo {
+  position: absolute;
+  left: 45%;
+  top: 45%;
+  width: 100px;
+}
+
+.profile-hoder span {
+  color: #fff;
+  font-size: 20px;
+  border-right: solid 2px #fff;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.yt-tumb div.head-ctn {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.yt-tumb::after {
+  content: "";
+  position: absolute;
+  border-radius: 20px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0) 0%,
+    rgb(0, 0, 0) 105%
+  );
+}
+
+.thumb-details {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.mesyrt-p {
+  margin-top: 30px;
+  color: #fff;
+  font-size: 18px;
+  width: 750px;
+}
+
+hr {
+  color: #707070;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.thumb-details .details-ctn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.share-ico {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.icon-cotn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-cotn p {
+  color: #fff;
+  font-size: 12px;
+}
+
+.share-ico img {
+  width: 40px;
+}
+
+.tit-capt h2 {
+  color: #fff;
+}
+
+.happening {
+  color: #fff;
+}
+
+.tit-capt p {
+  margin-top: 5px;
+  color: #707070;
+}
+
+label {
+  position: relative;
+}
+
+label:before {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 0;
+  bottom: 0;
+  width: 20px;
+  background: url("/icons/search-svgrepo-com.svg") center / contain no-repeat;
+}
+
+input {
+  padding: 10px 30px;
+  background: transparent;
+  border-radius: 20px;
+  border: #ccc solid 1px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  overflow-y: auto;
+  width: 100%;
+  height: 920px;
+  position: relative;
+  padding-left: 40px;
+  direction: rtl;
+}
+
+.video-container .video-column .video-hldr {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.vid-title {
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.vid-capt {
+  color: #ccc;
+  font-size: 10px;
+}
+
+.video {
+  width: 320px;
+  height: 170px;
+  background-color: lightgray;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.video-container::-webkit-scrollbar {
+  width: 3px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.video-container::-webkit-scrollbar-track {
+  background: #ccc;
+  border-radius: 1px;
+}
+
+.video-container::-webkit-scrollbar-thumb {
+  background: orange;
+  border-radius: 1px;
+}
+
+.video-container::-webkit-scrollbar-thumb:hover {
+  background: #ff8c00;
+}
+
+.horiz-vids {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 100px;
+}
+
+.horiz-vids .video-hldr {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.brows-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.pr-ctn {
+  display: flex;
+}
+
+.pr-ctn .fa-play {
+  margin-right: 5px;
+}
+
+.speak-ctn p {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.speak-ctn h4 {
+  margin-bottom: 10px;
+}
+
+h5 {
+  color: #fff;
+}
+
+.spk-vid-ctn {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.vid-ctn {
+  width: 710px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  position: relative;
+}
+
+.vid-ctn::after {
+  content: "";
+  position: absolute;
+  bottom: 150px;
+  right: 0;
+  width: 95%;
+  height: 13%;
+  background-image: linear-gradient(
+    180deg,
+    transparent 0 30%,
+    #111111 80% 100%
+  );
+  z-index: 100;
+}
+
+.lastbox {
+  background: linear-gradient(to bottom, #111111, #111111);
+  width: 95%;
+  height: 150px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.lastbox .dots div {
+  background-color: #ff8c00;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+.lastbox .dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.view {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}

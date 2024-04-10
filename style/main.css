@@ -1,0 +1,394 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f5fafa;
+  font-family: "poppins", sans-serif;
+}
+
+main {
+  width: 1000px;
+  margin: 20px 0;
+}
+
+.sermon {
+  height: 500px;
+  width: 100%;
+  background: url(/images/Spirt_studio_95.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: end;
+  padding: 0 0 30px 20px;
+  position: relative;
+}
+
+.post-ctn {
+  position: absolute;
+  z-index: 1;
+}
+
+.sermon::after {
+  content: "";
+  position: absolute;
+  border-radius: 20px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgb(0, 0, 0) 105%
+  );
+}
+
+.sermon h2 {
+  color: #fff;
+  font-size: 30px;
+}
+
+.sermon button {
+  background: #6db1fa;
+  padding: 3px 10px;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+.sermon .option-btn .watch-btn {
+  background: #ff8000;
+  height: 30px;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  margin-top: 8px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sermon .option-btn .more-btn {
+  background: #1f79da;
+  padding: 3px 10px;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  margin-top: 8px;
+}
+
+.option-btn {
+  display: flex;
+}
+
+.play-btn {
+  background: rgba(255, 255, 255, 0.253);
+  border-radius: 50%;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.8px);
+  -webkit-backdrop-filter: blur(3.8px);
+  border: 1px solid rgba(255, 255, 255, 0.151);
+  margin-right: 5px;
+  display: flex;
+  height: 20px;
+  width: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-play {
+  width: 12px;
+  padding: 2px 2px;
+}
+
+.events-cotn {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  margin-top: 20px;
+}
+
+.up-event {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 180px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  background: #ff8000;
+  color: #fff;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+}
+
+.poster-cotn {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  margin-left: 15px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  width: 400px;
+}
+
+.details-cotn {
+  padding-left: 10px;
+}
+
+.details-cotn h3 {
+  color: #ff8000;
+  width: 150px;
+  font-size: 18px;
+}
+
+.details-cotn p {
+  margin-top: 5px;
+  font-size: 14px;
+  width: 180px;
+}
+
+.poster-cotn img {
+  height: 100%;
+}
+
+.post-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.icon-cotn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 10px;
+}
+
+.icon-cotn div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.icon-cotn div img {
+  width: 15px;
+}
+
+.icon-cotn div span {
+  font-size: 10px;
+  color: #1f79da;
+}
+
+.blue-hr {
+  margin-top: 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: #1f79da;
+  height: 30px;
+  width: 100%;
+}
+
+.transform-cotn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trans-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.trans-content h2 {
+  color: #5c5c5c;
+  font-size: 33px;
+  margin-bottom: 50px;
+}
+
+.trans-content p {
+  margin-bottom: 20px;
+}
+
+.transform-cotn img {
+  width: 400px;
+}
+
+.invite-cotn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  border-bottom-right-radius: 25px;
+}
+
+.times-cotn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 320px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.times-cotn div {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.times-cotn div h4 {
+  color: #1f79da;
+}
+
+.times-cotn div p {
+  color: #5c5c5c;
+}
+
+.blu-div {
+  padding-left: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  width: 150px;
+  font-size: 20px;
+  background: #1f79da;
+  height: 100px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.bible-read {
+  background: #050505;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.bible-read img {
+  height: 100%;
+}
+
+.bible-title {
+  margin-bottom: 8px;
+}
+
+.bible-title .week {
+  color: #ccc;
+  border-right: solid 1px #ccc;
+  padding-right: 10px;
+  margin-right: 6px;
+}
+
+.bible-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.bible-title .reflect {
+  color: #ff8000;
+  font-weight: bold;
+}
+
+.verse {
+  color: #fff;
+  margin-bottom: 8px;
+  width: 350px;
+}
+
+.book {
+  color: #ccc;
+}
+
+.grid-items {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.all-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+
+.item-mbr {
+  margin-bottom: 13px;
+  font-size: 19px;
+}
+
+.all-items a button {
+  width: 200px;
+  border: none;
+  color: #fff;
+  background: #ff8000;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 2px;
+}
+
+.no-of-mbr {
+  margin-bottom: 13px;
+  font-size: 40px;
+  color: #1f79da;
+}
+
+.happening {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.image-cotn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-ctns img {
+  height: 120px;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 8px;
+}
+
+.item-ctns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+iframe {
+  border: solid 2px #1f79da;
+  border-radius: 15px;
+  width: 100%;
+  height: 340px;
+}

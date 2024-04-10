@@ -1,0 +1,288 @@
+.banner {
+  background: #1f79da;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+
+.banner img {
+  height: 100%;
+}
+
+.banner-statem {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-left: 250px;
+}
+
+.banner:before {
+  content: "";
+  position: absolute;
+  left: 20%;
+  bottom: 0;
+  height: 20px;
+  width: 50%;
+  border-bottom: 3px solid #ff8000;
+}
+
+.banner-statem h2 {
+  color: #fff;
+  font-size: 35px;
+}
+
+.banner-statem p {
+  color: #fff;
+  font-size: 20px;
+}
+
+.presence {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 400px;
+}
+
+.thumb-contaiber {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #1f79da;
+  border-radius: 15px;
+}
+
+.triangle {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-top: 70px solid transparent;
+  border-right: 130px solid #1f79da;
+  opacity: 0.5;
+}
+
+.fa-play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 30px;
+}
+
+.thumb-contaiber img {
+  width: 200px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.pres-content {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+}
+
+.pres-content h2 {
+  font-size: 30px;
+  color: #a39a9a;
+}
+
+.pres-content p {
+  width: 90%;
+  margin-right: 40px;
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
+.thumb-img {
+  position: relative;
+}
+
+.listen-ctn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 5px;
+}
+
+.rect-cont {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  height: 310px;
+  position: relative;
+  width: 100%;
+}
+
+.rect-cont div {
+  width: 490px;
+  height: 250px;
+  color: #fff;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rectangle {
+  position: absolute;
+  left: 47%;
+  top: 40%;
+  width: 60px;
+  height: 20px;
+  background: #f5fafa;
+  transform: rotate(126deg);
+}
+
+.blue-rec {
+  margin-top: 20px;
+  background: #1f79da;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+
+.orange-rec {
+  background: #ff8000;
+  font-size: 30px;
+  padding-right: 70px;
+  padding-left: 70px;
+  text-align: center;
+}
+
+.pastor-ctn {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 400px;
+}
+
+.pastor-ctn img {
+  height: 100%;
+}
+
+.pst-cnt {
+  height: 100%;
+  margin-left: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+}
+
+.pst-name {
+  font-size: 29px;
+  margin-bottom: 5px;
+  color: #6e6d6d;
+}
+
+.caption {
+  color: #1f79da;
+}
+
+.pst-sta {
+  font-size: 20px;
+}
+
+.lead-h2 {
+  color: #6e6d6d;
+  font-size: 35px;
+}
+
+.admi {
+  color: #6e6d6d;
+  font: 23px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.admin-ctn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.adm-pic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.adm-pic img {
+  width: 150px;
+}
+
+.adm-pic p {
+  margin-top: 5px;
+  font-size: 20px;
+  color: #6e6d6d;
+}
+
+.blue-statem {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  color: #1f79da;
+  font-size: 20px;
+  text-align: center;
+}
+
+.invite-cotn1 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.times-cotn1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100px;
+  width: 100%;
+}
+
+.times-cotn1 div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.times-cotn1 div h4 {
+  color: #1f79da;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.times-cotn1 div p {
+  color: #5c5c5c;
+  font-weight: bold;
+}
+
+.blu-div1 {
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  width: 250px;
+  text-align: center;
+  font-size: 20px;
+  background: #1f79da;
+  height: 100%;
+}
